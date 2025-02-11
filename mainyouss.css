@@ -1,0 +1,161 @@
+body { 
+    margin: 0%;
+    background-color: #F4F4F4;
+}
+.entete1  {
+         background-color: #AA9D9F;
+        display: flex;                 /* Utilisation de Flexbox pour aligner horizontalement */
+        border-radius: 15px;
+        width: 85%;
+        margin: 10px auto;
+        height: 50px;
+        align-items: center;  
+        color: #F4F4F4;  
+   
+}
+.main1 { 
+    display: flex;                 /* Utilisation de Flexbox pour aligner horizontalement */
+justify-content: space-evenly  ;
+width: 50%;  
+ justify-items: center;
+ padding-left: 150px;
+ color: #F4F4F4;
+}
+.entete1 .p1 {
+    margin:5px;                        /* Enlever les marges autour du paragraphe */
+    font-size: larger;
+    font-weight: 500;
+  }
+a { 
+    color:  white;
+    text-decoration: none;
+}
+a:hover{
+   color : purple; 
+}
+.bt { 
+    padding: 10px 20px; 
+    color :  #AA9D9F;
+    border : 5px solid; 
+    padding: left 250px;
+   border-radius: 15px;
+  background-color: #F4F4F4;
+  margin-left: auto;
+}
+.presentation {
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: left;
+    padding-left: 150px;
+    line-height: 20px;
+    margin-top: -10px;
+   
+}
+.msg1 { 
+    margin-top: 35px;
+    padding-left: 150px;
+    margin-bottom: 1px;
+}
+.prst1 { text-align: left;
+     padding-left: 150px;
+
+}
+.entete2 {
+    background-color: #AA9D9F;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.p2 {  padding-left: 920px;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 70px;
+}
+.p3{
+    padding-left: 1010px;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 70px;
+
+}
+.p4{
+    padding-left: 1030px;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: -20px;
+}
+main p { margin : 0;}
+.foot1{
+    display: flex;
+    background-color: #AA9D9F;
+    margin-top: 70px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .clique { font-size: 10px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 24px;  /* Augmenter la taille du texte */
+    padding: 02px 7px;
+    color: black   ;
+}
+.clique:hover {
+    transform: scale(1.2);
+}
+img {  
+    width: 500px;
+    height: 400px;
+    padding: 0;
+    margin-top: 80px ;
+}
+main {
+    height: 500px;
+}
+img:hover {
+    opacity: 0.7;}
+    .meal{ 
+        position: absolute;
+        margin-top: 150px;
+    }
+    {
+        box-sizing: border-box;  /* Cette règle applique box-sizing à tous les éléments */
+    }
+    .down { padding-left: 300px;}
+    .down:hover .down1{
+        display: block; /* Affiche le menu au survol */
+    }
+    .down1 {
+        display: none; /* Cache le contenu par défaut */
+        position: absolute; /* Positionne le menu */
+      background-color: white;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        margin-left: 15px;
+        border-radius: 15px;
+        width: 100px;
+        height: 110px;
+    }
+    
+    .down1:hover .down1 {
+        display: block; /* Affiche le menu au survol */
+        padding-left: 50px;
+        opacity: 1;
+    }
+    .down1 a { color: black;
+        display: block;
+    margin-left: 30px;
+    padding: 5px 25px;
+    border: 1px solid  #AA9D9F; /* Bordure autour de chaque lien */
+    border-radius: 10px;
+    margin: 5px ;
+    display: flex; /* Utilisation de flexbox pour le centrage */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+
+transition: opacity 0.3s ease-in-out;
+}
+.down1 :hover { transform: scale(1,2);
+background-color: #AA9D9F;}
